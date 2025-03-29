@@ -20,7 +20,7 @@ API Usage
 
 Endpoint:
 
-POST https://your-app.vercel.app/api/
+POST https://tds-project-2-2025-8c5a-5o6s99zym-mohd-saqibs-projects-351cb01b.vercel.app/api/
 
 Request Format:
 
@@ -34,7 +34,7 @@ file (file, optional) - A CSV or ZIP file containing the answer.
 
 Example Request (Using cURL):
 
-curl -X POST "https://your-app.vercel.app/api/" \
+curl -X POST "https://tds-project-2-2025-8c5a-5o6s99zym-mohd-saqibs-projects-351cb01b.vercel.app/api/" \
   -H "Content-Type: multipart/form-data" \
   -F "question=What is the value in the 'answer' column of the CSV file?" \
   -F "file=@extract.csv"
